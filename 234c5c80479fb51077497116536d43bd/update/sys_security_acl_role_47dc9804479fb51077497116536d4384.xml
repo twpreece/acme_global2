@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 23:46:41</sys_created_on>
+        <sys_id>47dc9804479fb51077497116536d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_zzwidget_service_table.x_snc_zzwidget.service_table_user</sys_name>
+        <sys_package display_value="zzWidget" source="x_snc_zzwidget">234c5c80479fb51077497116536d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zzWidget">234c5c80479fb51077497116536d43bd</sys_scope>
+        <sys_security_acl display_value="x_snc_zzwidget_service_table">cbdc9804479fb51077497116536d437b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_47dc9804479fb51077497116536d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 23:46:41</sys_updated_on>
+        <sys_user_role display_value="x_snc_zzwidget.service_table_user" name="x_snc_zzwidget.service_table_user">7edc1480479fb51077497116536d430c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

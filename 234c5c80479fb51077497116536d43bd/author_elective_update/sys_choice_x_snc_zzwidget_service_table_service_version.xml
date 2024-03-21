@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_version" table="x_snc_zzwidget_service_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_version</element>
+            <name>x_snc_zzwidget_service_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:51:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_version</sys_name>
+            <sys_package display_value="zzWidget" source="x_snc_zzwidget">234c5c80479fb51077497116536d43bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zzWidget">234c5c80479fb51077497116536d43bd</sys_scope>
+            <sys_update_name>sys_choice_x_snc_zzwidget_service_table_service_version</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:51:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>App Migration</dependent_value>
+            <element>service_version</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>v1</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:52:50</sys_updated_on>
+            <value>v1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>App Migration</dependent_value>
+            <element>service_version</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>v2</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:52:55</sys_updated_on>
+            <value>v2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Segmentation</dependent_value>
+            <element>service_version</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>v3</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:54:28</sys_updated_on>
+            <value>v3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Segmentation</dependent_value>
+            <element>service_version</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>v4</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:54:28</sys_updated_on>
+            <value>v4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

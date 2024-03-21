@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="servicename" table="x_snc_zzwidget_service_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>servicename</element>
+            <name>x_snc_zzwidget_service_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:48:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>servicename</sys_name>
+            <sys_package display_value="zzWidget" source="x_snc_zzwidget">234c5c80479fb51077497116536d43bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zzWidget">234c5c80479fb51077497116536d43bd</sys_scope>
+            <sys_update_name>sys_choice_x_snc_zzwidget_service_table_servicename</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:48:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicename</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>App Migration</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:48:46</sys_updated_on>
+            <value>App Migration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicename</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Segmentation</label>
+            <language>en</language>
+            <name>x_snc_zzwidget_service_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 23:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 23:48:53</sys_updated_on>
+            <value>Segmentation</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

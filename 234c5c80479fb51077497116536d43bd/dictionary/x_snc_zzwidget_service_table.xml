@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52cc1804479fb51077497116536d433a" label="Service Table" max_length="40" name="x_snc_zzwidget_service_table" type="collection">
+        <element label="Name" max_length="80" name="name" type="string"/>
+        <element label="Release Notes" max_length="40" name="release_notes" type="string"/>
+        <element choice="1" label="Servicename" max_length="40" name="servicename" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="App Migration" value="App Migration"/>
+                <element inactive_on_update="false" label="Segmentation" value="Segmentation"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="servicename" dependent_on_field="servicename" label="Service Version" max_length="40" name="service_version" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="App Migration" inactive_on_update="false" label="v1" sequence="0" value="v1"/>
+                <element dependent_value="App Migration" inactive_on_update="false" label="v2" sequence="1" value="v2"/>
+                <element dependent_value="Segmentation" inactive_on_update="false" label="v3" sequence="2" value="v3"/>
+                <element dependent_value="Segmentation" inactive_on_update="false" label="v4" sequence="3" value="v4"/>
+            </choice>
+        </element>
+    </element>
+</database>
